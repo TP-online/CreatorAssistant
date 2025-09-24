@@ -1,6 +1,8 @@
 <img width="700" height="548" alt="splash" src="https://github.com/user-attachments/assets/70a5cd5a-ce34-43af-b592-4983b5b4fa57" />
 
-# YouTube Comment Bot - Complete User's Guide
+
+# Creator Assistant
+### A Modern YouTube Comment Bot: By PrimeTools
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -68,7 +70,7 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 1. **Launch the Application**
    - Double-click the executable to start
    - Wait for the splash screen to complete
-   - 
+   
 2. **Authenticate Your YouTube Account**
    - Go to the "Accounts" tab
    - Click "Add Account"
@@ -79,8 +81,6 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
    - Set your keywords in the "Main" tab
    - Add your comment templates
    - Configure basic bot settings
-
----
 
 ## Main Features
 
@@ -145,8 +145,6 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 - **Purpose**: Test your configuration without posting actual comments
 - **Use Case**: Perfect for testing new templates and settings
 - **Output**: All actions are logged, but no comments are posted
-
----
 
 ## Account Management
 
@@ -233,7 +231,7 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 
 **Nested Variations**
 ```
-This is {so {helpful|useful}|{absolutely|really} {amazing|incredible}}! I {can’t believe|never thought} I’d {find|come across} something like this.
+This is {so {helpful|useful}|{absolutely|really} {amazing|incredible}}! I {can't believe|never thought} I'd {find|come across} something like this.
 ```
 
 **Context-Aware Comments**
@@ -295,8 +293,6 @@ AI-powered context-aware comments are Coming Soon!
 - **Error Logs**: Identify and resolve issues
 - **Comment History**: Review posted comments
 
----
-
 ## Monitoring & Status
 
 ### Status Tab Overview
@@ -326,6 +322,28 @@ AI-powered context-aware comments are Coming Soon!
 - Verify network connection
 - Review video-specific restrictions
 - Adjust delay settings if needed
+
+---
+
+## 🔧 Recent Updates (v0.1.9)
+
+### ✅ Fixed Issues
+- **Quota Detection**: Fixed overly aggressive quota exceeded detection
+- **Comment Verification**: Improved comment verification reliability
+- **Error Handling**: Better error messages and recovery
+- **Syntax Fixes**: Resolved compilation issues
+
+### 🆕 New Features
+- **Enhanced Verification**: More reliable comment posting confirmation
+- **Better Quota Management**: Smarter client secret cycling
+- **Improved Error Messages**: Clearer feedback on issues
+- **Robust Verification**: Multiple verification methods for comments
+
+### 🔧 Technical Improvements
+- **Processing Delays**: Added delays for YouTube comment processing
+- **Author ID Verification**: Check comments by channel ID
+- **Dual Search Methods**: Multiple verification approaches
+- **Better Text Matching**: Exact and partial match detection
 
 ---
 
@@ -404,8 +422,6 @@ AI-powered context-aware comments are Coming Soon!
 - Focus on videos with moderate engagement
 - Avoid over-saturated content
 - Target channels in your niche
-
----
 
 ## FAQ
 
