@@ -2,7 +2,8 @@
 
 
 # Creator Assistant
-## YouTube Comment Bot - By PrimeTools
+### A Modern YouTube Comment Bot   
+#### By PrimeTools
 
 ## Table of Contents
 1. [Overview](#overview)
