@@ -1,4 +1,8 @@
-# YouTube Comment Bot - Complete User's Guide
+
+
+
+# Creator Assistant
+## YouTube Comment Bot - By PrimeTools
 
 ## Table of Contents
 1. [Overview](#overview)
