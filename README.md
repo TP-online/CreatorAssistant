@@ -46,7 +46,6 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 
 2. **First Launch**
    - Run the executable file
-   - The application will automatically install the Orbitron font for optimal display
    - No additional setup required
 
 3. **Client Secret Setup**
@@ -61,13 +60,13 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 
 1. **Launch the Application**
    - Double-click the executable to start
-   - Wait for the splash screen to complete (font installation happens automatically)
-
+   - Wait for the splash screen to complete
+   - 
 2. **Authenticate Your YouTube Account**
    - Go to the "Accounts" tab
    - Click "Add Account"
    - Follow the authentication process in your browser
-   - Grant the necessary permissions
+   - Make sure that your YouTube accounts have a "channel" created
 
 3. **Configure Basic Settings**
    - Set your keywords in the "Main" tab
@@ -120,7 +119,7 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 **View Count Filter**
 - **Min Views**: Minimum view count (e.g., 1000)
 - **Max Views**: Maximum view count (e.g., 100000)
-- **Purpose**: Target videos with appropriate audience size
+- **Purpose**: Target videos with an appropriate audience size
 
 **Comments Count Filter**
 - **Min Comments**: Minimum comment count
@@ -138,7 +137,7 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 **Dry Run Mode**
 - **Purpose**: Test your configuration without posting actual comments
 - **Use Case**: Perfect for testing new templates and settings
-- **Output**: All actions are logged but no comments are posted
+- **Output**: All actions are logged, but no comments are posted
 
 ---
 
@@ -151,13 +150,13 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 3. **Complete Authentication**
    - Browser will open for YouTube authentication
    - Grant necessary permissions
-   - Account will be added to the list
+   - Account will be added to your "authenticated" directory
 
 ### Account Features
 
 **Account Rotation**
-- **Automatic**: Bot cycles through accounts for each comment
-- **Manual Selection**: Choose specific account for next job
+- **Automatic**: Bot can cycle through accounts for each comment
+- **Manual Selection**: Choose a specific account for next job
 - **Status Tracking**: Monitor which accounts are active
 
 **Account Information**
@@ -180,7 +179,7 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 ### Basic Settings
 
 **Videos per Keyword**
-- **Range**: 1-10 recommended
+- **Range**: less than 50 recommended
 - **Purpose**: Control how many videos to process per keyword
 - **Balance**: More videos = more activity, but higher risk
 
@@ -188,6 +187,7 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 - **Minimum**: 60 seconds (absolute minimum)
 - **Recommended**: 120-300 seconds
 - **Maximum**: 600+ seconds for maximum safety
+- If cycling multi accounts, the more accs you use = the lower delay you can put
 
 ### Advanced Filtering
 
@@ -226,12 +226,12 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 
 **Nested Variations**
 ```
-{Great|Awesome} {tutorial|guide|video}! {Thanks|Appreciate} for {sharing|posting} this {helpful|useful|valuable} {content|information|knowledge}.
+This is {so {helpful|useful}|{absolutely|really} {amazing|incredible}}! I {can’t believe|never thought} I’d {find|come across} something like this.
 ```
 
 **Context-Aware Comments**
 ```
-{Love|Enjoy|Appreciate} your {videos|content|channel}! {This|That} {tutorial|guide|video} was {really|so|very} {helpful|useful|informative}.
+AI-powered context-aware comments are Coming Soon!
 ```
 
 ### Spintax Best Practices
@@ -247,25 +247,6 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 - Use proper grammar and spelling
 - Match the video's tone and content
 
-**Template Examples**
-
-**Educational Content**
-```
-{Great|Excellent|Amazing} {tutorial|guide|explanation}! {Thanks|Appreciate} for {sharing|posting} this {helpful|useful|valuable} {information|knowledge|content}.
-```
-
-**Entertainment Content**
-```
-{Love|Enjoy|Appreciate} your {videos|content|channel}! {This|That} was {really|so|very} {funny|entertaining|hilarious}!
-```
-
-**Review Content**
-```
-{Thanks|Appreciate} for the {honest|detailed|thorough} {review|analysis|breakdown}! {This|That} {helped|assisted} me {decide|choose|make up my mind}.
-```
-
----
-
 ## Running the Bot
 
 ### Starting the Bot
@@ -276,8 +257,8 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
    - Review filter settings
 
 2. **Choose Mode**
+   - **Live Mode**: Default
    - **Dry Run**: Test without posting (recommended first)
-   - **Live Mode**: Post actual comments
 
 3. **Start the Bot**
    - Click "Start Bot" in the Main tab
@@ -294,7 +275,7 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
 6. Waits for specified delay
 7. Repeats for next video
 
-**Account Rotation**
+**Account Rotation Mode**
 - Bot automatically cycles through authenticated accounts
 - Each comment uses a different account
 - Prevents overuse of individual accounts
