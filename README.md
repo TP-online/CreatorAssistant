@@ -1,3 +1,5 @@
+<img width="700" height="548" alt="splash" src="https://github.com/user-attachments/assets/70a5cd5a-ce34-43af-b592-4983b5b4fa57" />
+
 # YouTube Comment Bot - Complete User's Guide
 
 ## Table of Contents
