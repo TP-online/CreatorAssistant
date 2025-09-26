@@ -3,6 +3,8 @@
 
 # Creator Assistant
 ### A Modern YouTube Comment Bot: By PrimeTools
+[![Static Badge](https://img.shields.io/badge/Tools-darkblue?style=plastic&logo=prettier&logoColor=white&label=Prime)](https://primetools.world/products)
+
 
 ## Table of Contents
 1. [Overview](#overview)
