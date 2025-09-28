@@ -1,0 +1,88 @@
+# 🎯 AI Template Adherence Control Guide  
+
+> **Control how closely the AI follows your comment templates**  
+
+## 📋 Overview  
+Template Adherence lets you balance **creativity vs. structure** when generating comments. Adjust it in **AI Tools → Template Adherence Control** using the **real-time slider** (0.0 – 1.0).  
+
+---
+
+## ⚙️ Configuration  
+
+| Slider Position | Behavior | Use Case |
+|----------------|----------|----------|
+| **0.0 - 0.3** | Very Creative | Loose inspiration, highly natural |
+| **0.4 - 0.6** | Balanced | Mix of structure + creativity |
+| **0.7 - 0.9** | Template-Focused | Closely follows template |
+| **1.0** | Strict Template | Exact structure, no changes |
+
+🔒 **Important:** Content wrapped in `*asterisks*` (CTAs, links) is **always preserved**, regardless of adherence.  
+
+---
+
+## 🎨 Examples  
+
+**Template:**  
+```
+"Great video! *Subscribe to my channel* for more content. *Check out my website* for resources."
+```  
+
+**Video:** *How to Trade Bitcoin in 2025*  
+
+| Adherence | AI Output | Behavior |
+|-----------|-----------|----------|
+| **0.2 (Creative)** | "Wow, this Bitcoin guide is exactly what I needed! *Subscribe to my channel* for more crypto insights. *Check out my website* for advanced strategies." | Conversational, adds context |
+| **0.5 (Balanced)** | "Great video on Bitcoin trading! Really helpful insights for 2025. *Subscribe to my channel* for more crypto content. *Check out my website* for additional resources." | Balanced, relevant |
+| **0.8 (Template-Focused)** | "Great video! *Subscribe to my channel* for more content. *Check out my website* for some other resources." | Mostly template, minor edits |
+| **1.0 (Strict)** | "Great video! *Subscribe to my channel* for more content. *Check out my website* for resources." | Exact template |
+
+---
+
+## 🔧 How It Works  
+
+- **Prompt Instructions:** Adjusted based on slider  
+- **Temperature Mapping:**  
+  - 0.0 → High creativity (≈ 1.0 temp)  
+  - 0.5 → Balanced (≈ 0.75 temp)  
+  - 1.0 → Predictable (≈ 0.5 temp)  
+
+---
+
+## 🎯 Recommended Settings  
+
+### 📢 Marketing / Affiliate  
+🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪  
+- Consistent branding  
+- CTAs always preserved  
+- Professional, predictable  
+
+### 💬 Organic Engagement  
+🔵🔵🔵⚪⚪⚪⚪⚪⚪⚪  
+- Natural, conversational tone  
+- Higher engagement potential  
+- Looser template use  
+
+### 🎥 Content Creators  
+🔵🔵🔵🔵🔵⚪⚪⚪⚪⚪  
+- Balanced approach  
+- Good for community building  
+- Maintains brand voice  
+
+### 🧪 Experimentation  
+🔵🔵🔵🔵🔵⚪⚪⚪⚪⚪  
+- Great baseline for testing  
+- Easy to tweak up or down  
+
+---
+
+## 📊 Monitoring & Adjustment  
+
+- **Too robotic?** Lower the slider  
+- **Too random?** Raise the slider  
+- **CTAs missing?** Ensure they’re wrapped in `*asterisks*`  
+
+---
+
+## 🎉 Conclusion  
+
+The Template Adherence slider gives you full control over how creative or structured your comments are. Start at **0.5 (balanced)**, then adjust based on engagement and goals.  
