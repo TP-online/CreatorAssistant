@@ -1,4 +1,4 @@
-<img width="700" height="548" alt="splash" src="https://github.com/user-attachments/assets/70a5cd5a-ce34-43af-b592-4983b5b4fa57" />
+<img width="684" height="704" alt="splash" src="https://github.com/user-attachments/assets/a81952d2-f84f-4d6b-a715-9f85d72e858e" />
 
 
 # Creator Assistant
@@ -21,8 +21,13 @@
 12. [FAQ](#faq)
 
 ---
+
+# New AI Features 👇🏻
+![Screenshot 2025-09-28 182901](https://github.com/user-attachments/assets/927a6dc1-21a0-4c5c-87b1-11e09fbddfd3)
+![Screenshot 2025-09-28 183035](https://github.com/user-attachments/assets/54ff831a-95ed-4319-8fbf-499e961e0eff)
+
+# Standard Features 👇🏻
 ![](https://imgur.com/9CuLdTf.png)
-![](https://imgur.com/NjyLLeo.png)
 ![](https://imgur.com/fw0u0vB.png)
 ![](https://imgur.com/3f5VSPD.png)
 ![](https://imgur.com/lq0cyVL.png)
