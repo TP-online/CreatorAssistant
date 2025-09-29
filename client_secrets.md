@@ -1,5 +1,5 @@
 # 🔑 YouTube API Client Secret Setup Guide
-
+ 
 > **Complete step-by-step instructions for creating your own YouTube API credentials**
 
 ## 📋 Table of Contents
