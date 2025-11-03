@@ -33,7 +33,7 @@
 
 ## Overview
 
-The YouTube Comment Bot is a powerful automation tool designed to help content creators and marketers engage with YouTube videos through intelligent commenting. The bot supports multiple YouTube accounts, advanced filtering options, and sophisticated comment generation using spintax templates.
+The YouTube Comment Bot is a powerful automation tool designed to help content creators and marketers engage with YouTube videos through intelligent commenting. The bot supports multiple YouTube accounts, advanced filtering options, and sophisticated comment generation using both nested spintax templates and AI Context-Aware Commenting.
 
 ### Key Features
 - **Multi-Account Support**: Manage and rotate between multiple YouTube accounts
@@ -64,8 +64,13 @@ The YouTube Comment Bot is a powerful automation tool designed to help content c
    - No additional setup required
 
 3. **Client Secret Setup**
-   - The application includes pre-configured client secrets
-   - No manual configuration needed for basic usage
+   - The application no longer comes with pre-configured client secrets.
+   - You will need to create your own client secrets to use.
+   - The more you create, the more API calls you will get.
+   - Creator Assistant is made to be used with as many client_secrets as you want.
+   - Create a folder named "clients" in the same directory as the exe.
+   - This is where you will keep your client_secret.json files.
+   -  *(For more info see client_secrets.md)*  
 
 ---
 
@@ -378,7 +383,7 @@ AI-powered context-aware comments are Coming Soon!
 - **Review Comment Templates**: Ensure comments are appropriate
 
 ### Performance Optimization
-
+                                                                                                                                                                                                                                                                                      
 **Speed vs. Safety**
 - **Fast Mode**: 60-120 second delays (higher risk)
 - **Balanced Mode**: 120-300 second delays (recommended)
