@@ -1,5 +1,9 @@
 <img width="1333" height="900" alt="splash3" src="https://github.com/user-attachments/assets/3013c13c-5e1b-4e97-a2ad-07fe3ecec7a8" />
 
+
+https://github.com/user-attachments/assets/b8a6e921-be30-487e-add2-ed98b82ac0e0
+
+
 # Creator Assistant AI
 ### A Modern YouTube Comment Bot: By PrimeTools
 [![Static Badge](https://img.shields.io/badge/Tools-darkblue?style=plastic&logo=prettier&logoColor=white&label=Prime)](https://primetools.world/products)
